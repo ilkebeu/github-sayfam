@@ -1,17 +1,17 @@
 		body {
 			line-height: 1.6;
 			margin: 20px;
-			background-color: #c2fcd7; /* Yedek renk */
+			background-color: #c2fcd7;
 			background-image: url('https://i.imgur.com/MzvKVpt.jpg');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
-			font-family: 'Clash Regular', sans-serif;
+			font-family: Clash Regular, sans-serif;
 		}
 		.gorseller {
 		width: 400px;
 		}
-		.indir-btn {
+		.btn {
 		display: inline-block;
 		padding: 10px 20px;
 		background-color: #4CAF50;
@@ -20,6 +20,12 @@
 		border-radius: 8px;
 		transition: background-color 0.3s;
 		}
-		.indir-btn:hover {
+		.btn:hover {
 		background-color: #45a049;
+		}
+		.ozel-liste1 {
+		list-style: disc;
+		}
+		.ozel-liste2 {
+		list-style: None;
 		}
